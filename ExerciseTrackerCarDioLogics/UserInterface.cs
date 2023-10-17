@@ -55,7 +55,7 @@ public class UserInterface
 
             var choice = AnsiConsole.Prompt(
                  new SelectionPrompt<MainMenuOptions>()
-                .Title("Select an exercise type")
+                .Title("Select an option:")
                 .AddChoices(MainMenuOptions.AddSession, MainMenuOptions.RemoveSession,
                             MainMenuOptions.UpdateSession, MainMenuOptions.ViewSessions, MainMenuOptions.BackToStartMenu));
 
